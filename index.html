@@ -14,16 +14,11 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-
-  
 </head>
 <body>
-
-  <!-- Rating state start -->
-
   <main>
-    <div class="outerContainer">
-      <div class="container">
+    <div class="container">
+      <div class="rating_state active">
         <div class="star"><img src="images/icon-star-alt.svg" alt="" class="img-star"></div>
         <div class="question"><h1>How did we do?</h1></div>
         <div class="please">
@@ -41,25 +36,17 @@
           <div class="txt-submit">SUBMIT</div>
         </div>
       </div>
+      <div class="thankyou_state">
+        <div class="illustration"><img src="images/illustration-thank-you.svg" alt=""></div>
+        <div class="result"><div class="txt-result">You selected <!-- Add rating here --> out of 5</div></div>
+        <div class="thankyou"><h1>Thank you!</h1></div>
+        <div class="comment">
+          We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!
+        </div>
+      </div>
     </div>
   </main>
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  <div class="result">You selected <!-- Add rating here --> out of 5</div>
-
-  <div class="thankyou">Thank you!</div>
-
-  <div class="comment">
-    We appreciate you taking the time to give a rating. If you ever need more support,
-    don’t hesitate to get in touch!
-  </div>
-
-  <!-- Thank you state end -->
-
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
