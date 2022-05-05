@@ -38,7 +38,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     width: 320px;
-    top: 50%;
+    top: 25%;
     /* border: solid white; */
     margin: auto;
     height: auto;
@@ -154,6 +154,13 @@ h1 { /*the question*/
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: .15s;
+}
+
+.n:hover {
+    background-color: var(--orange);
+    color: white;
+    font-size: 16px;
 }
 
 .x {
@@ -170,6 +177,11 @@ h1 { /*the question*/
     border-radius: 200px;
     margin-bottom: 5px;
     cursor: pointer;
+    transition: 0.15s;
+}
+
+.btn-submit:hover {
+    background-color: var(--mediumgrey);
 }
 
 .txt-submit {
